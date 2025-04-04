@@ -79,6 +79,11 @@ app.post("/api/pdf/upload", upload.single("file"), async (req, res) => {
 });
 
 // Start server
+app.get('/', (req, res) => {
+    res.send('Server is running!');
+});
+
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
