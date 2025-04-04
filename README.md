@@ -1,2 +1,0 @@
-# ATS
-Application Tracker System
